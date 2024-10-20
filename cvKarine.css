@@ -1,0 +1,319 @@
+:root{
+--fond-color-- :  #323b4c;
+}
+header{
+    width: 60vw;
+    max-height: 25%;
+    background-color: var(--fond-color--);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border : solid 3px var(--fond-color--);
+}
+#photoCv {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    min-height: fit-content;
+    width: 9vw;
+    padding: 2vw;
+    margin-top: 5vh;
+}
+#blocDroitHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 70%;
+    border : solid 3px var(--fond-color--);
+    margin: 5px;
+}
+#nom{
+  margin: 0%;
+text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+#bloc{
+    width: 60%;
+    max-height: 25%;
+    display: flex;
+    justify-content: space-around;
+    border : solid 3px var(--fond-color--);
+}
+#colonneGauche{
+    display: flex;
+    flex-basis: 30vw;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--fond-color--);
+    color: white;
+}
+#donneesContact > li {
+  list-style-type: none;
+  padding-bottom: 2vh;
+  padding-right: 2vw;
+  display: flex;
+  gap: 3vh;
+}
+.listeColonneGauche>li {
+  list-style-type: none;
+  padding-bottom: 2vh;
+  padding-right: 2vw;
+  display: flex;
+  gap: 3vh;
+  }
+#group-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+  }
+#interet-left-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#reseaux-left-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    padding: 5vh;
+  }
+#colonneDroite{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 70%;
+}
+.competences>img{
+  width: 4vw;
+}
+.competences{
+  padding : 2vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap : 2vw;
+  justify-content: center;
+  width: 84%;
+  border-bottom: 2vh solid var(--fond-color--);
+  border-top: 2px solid var(--fond-color--);
+
+}
+.formation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1vh;
+  }
+  .header-formation{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    align-items: center;
+    width: 95%;
+    padding-top: 2vh;
+    border-top: 2px solid var(--fond-color--);
+  }
+  .content-formation{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    align-items: center;
+    width: 95%;
+    padding-top: 2vh;
+  }
+  h2{
+    text-transform: uppercase;
+    text-align: center;
+    }
+  .intitule-formation, .centre-formation{
+    flex-basis: auto;
+    text-align: end;
+  }
+  .date-formation, .ville-formation{
+    flex-basis: auto;
+    text-align: start;
+  }
+  .header-formation, .content-formation, .header-experience,.entreprise-experience, .list-mission{
+    width: 95%;
+  }
+  #formation-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    padding-bottom: 6vh;
+  }
+  #experiences-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 10px var(--fond-color--);
+  }
+  #experiences-part >h2{
+    text-align: center;
+  }
+  .experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;    border-radius: 25px;
+    padding-top: 2vh;
+  }
+  .header-experience{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    border-top: 2px solid var(--fond-color--);
+    padding-top: 3vh;
+  }
+  .date-experience{
+    flex-basis: auto;
+  }
+  .intitule-experience{
+    flex-basis: auto;
+    text-align: start;
+  }
+  .entreprise-experience, .list-mission{
+    width: 95%;
+  }
+  .entreprise-experience{
+    padding-bottom: 2vh;
+    text-align: end;
+  }
+
+
+  @media(max-width : 680px){
+
+  body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+  header{
+  width: 100%;
+  /* max-height: 25%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border : solid 3px black */
+}
+  #photoCv {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 25vw;
+        margin-top: 0px;
+        /* min-height: fit-content;
+        width: 13%;
+        padding: 2%; */
+    }
+    #blocDroitHeader{
+      /* /* display: flex; */
+      /* flex-direction: column;
+      justify-content: center;
+      align-items: stretch; */
+      /* width: 70vw; */
+      /* border : solid 3px var(--fond-color--); */
+    /* padding-top: 3vh; */
+      /* height: 25vh; */
+      width:fit-content;
+      min-height : fit-content;
+      margin : 0%; 
+  }
+  #bloc{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    /* max-height: 25%;
+    display: flex;
+    justify-content: space-around;
+    border : solid 3px var(--fond-color--); */
+
+}
+#nom{
+  padding: 0%;
+}
+#colonneGauche {
+  display: flex;
+  flex-direction: column;
+}
+.blocDeux{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-evenly ;
+
+}
+#donneesContact > li{
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+#contact, #competences-part, #lateral, #interet-left-part{
+  padding-left: 0px;
+  padding-bottom: 0px;
+  display : flex ; 
+  flex-direction : column;
+width: 100%;
+height: auto;
+}
+
+#reseaux-left-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0vh;
+  padding-top: 0vh;
+  margin: -2vh;
+}
+
+
+.listeColonneGauche>li {
+  list-style-type: none;
+  /* padding-bottom: 2vh; */
+  display: flex;
+  align-content: center;
+  /* gap: 10%; */
+  /* padding-bottom: 2vh; */
+}
+#colonneDroite{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+.competences>img{
+  width: 6em;
+}
+
+    #group-button{
+        flex-direction: column;
+      
+}
+
+@media(min-width : 681px) ,(max-width : 965px){
+
+
+}
+
+
+
+}
